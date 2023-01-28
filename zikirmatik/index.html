@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="href">
+    <title>ZİKİRMATİK APP</title>
+</head>
+<body>
+
+<div class="disalan">
+    <div class="sayialan">
+<span class="number">0</span>
+    </div>
+    <div class="buttonClass">
+        <button id="numberButton" type="button">ZİKRET!</button>
+    </div>
+    <br>
+
+    <button id="resetButton" type="button">SIFIRLA!</button>
+</div>
+
+
+<script>
+let number = document.querySelector(".sayialan>.number")
+let numberButton = document.querySelector("#numberButton").addEventListener("click",fNumber);
+let resetButton = document.querySelector("#resetButton").addEventListener("click",fReset);
+function fNumber(){
+number.innerHTML++;
+};
+function fReset(){
+number.innerHTML=0;
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+*{
+    background-color: gray;
+}
+.disalan{
+margin: 5px;
+padding: 5px;
+background-color: rgba(197, 197, 29, 0.651);
+width: 250px;
+height: 250px;
+border: 5px rgb(255, 255, 255) solid;
+border-radius: 15px;
+
+}
+.sayialan{
+background-color: white;
+border: 5px rgb(182, 180, 177) solid;
+border-radius: 15px;
+width: 125px;
+height: 45px;
+margin-left: 50px;
+margin-top: 25px;
+}
+span{
+background-color:transparent;
+width: auto;
+height: auto;
+font-size: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 10px;
+}
+.buttonClass{
+background-color: transparent;
+margin-top: 85px;
+margin-left: 80px;
+}
+#numberButton{
+background-color: white;
+width: 70px;
+height: 40px;
+border: 1px white solid;
+margin-top:-65px;
+border-radius: 5px;
+}
+#numberButton:hover{
+background-color: rgba(247, 8, 8, 0.938);
+border: 1px rgb(255, 0, 0) solid;
+border-radius: 5px;
+}
+#resetButton{
+    background-color: white;
+    width: 70px;
+    height: 20px;
+    border: 1px white solid;
+    margin-top:-65px;
+    margin-left: 80px;
+    border-radius: 5px;
+    }
+    #resetButton:hover{
+    background-color: rgba(247, 8, 8, 0.938);
+    border: 1px rgb(255, 0, 0) solid;
+    border-radius: 5px;
+    }
