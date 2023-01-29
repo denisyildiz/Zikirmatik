@@ -12,13 +12,20 @@ border-radius: 15px;
 
 }
 .sayialan{
-background-color: white;
-border: 5px rgb(182, 180, 177) solid;
+background-color: rgb(3, 2, 2);
+border: 3px rgb(255, 255, 255) solid;
 border-radius: 15px;
 width: 125px;
 height: 45px;
 margin-left: 50px;
 margin-top: 25px;
+color: white;
+}
+.sayialan span{
+display: block;
+float: right;
+margin-right: 10px;
+margin-top: 8px;
 }
 span{
 background-color:transparent;
